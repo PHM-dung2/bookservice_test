@@ -1,4 +1,5 @@
 -- 책 테이블
+DROP TABLE IF EXISTS reply;
 DROP TABLE IF EXISTS book;
 
 create table book(
@@ -11,7 +12,6 @@ create table book(
 );
 
 -- 댓글 테이블
-DROP TABLE IF EXISTS reply;
 
 create table reply(
 	rno int unsigned auto_increment,

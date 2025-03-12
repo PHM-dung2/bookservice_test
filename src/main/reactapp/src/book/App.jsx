@@ -7,11 +7,11 @@ import Home from "./Home";
 
 export default function App( props ){
     return(<>
-        안녕
         <BrowserRouter>
             <div id="wrap" >
                 <Sidebar />
                 <Routes>
+                    <Route path="/" element={ <Home /> } ></Route>
                     <Route path="/" element={ <Home /> } ></Route>
                 </Routes>
             </div>
