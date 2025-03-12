@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/reply")
-@CrossOrigin("http://192.168.40.45:8080")
+@CrossOrigin("http://192.168.40.45:5173")
 public class ReplyController {
 
     private final ReplyService replyService;
